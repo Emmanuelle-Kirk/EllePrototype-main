@@ -10,6 +10,7 @@ TagManager:
   - CollectSound
   - CamSwapTriggerHouse2
   - CamSwapTriggerHouse3
+  - CamSwapTriggerGas
   layers:
   - Default
   - TransparentFX
