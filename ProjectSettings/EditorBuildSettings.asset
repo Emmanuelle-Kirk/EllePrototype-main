@@ -8,5 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SmallTown.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GasStationLevel.unity
+    guid: 42c4e8b163af92144a29dc77b927ce31
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 537c7baa3916a3745a576c1427834373, type: 2}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -77,6 +78,10 @@ public class PlayerController : MonoBehaviour
             BuildingEntrance.enabled = false;
             BuildingIndoors2.enabled = false;
             BuildingIndoors.enabled = false;
+        }
+        if (other.gameObject.CompareTag("CamSwapTriggerGas"))
+        {
+            SceneManager.LoadScene(sceneName: "GasStationLevel");
         }
 
 
