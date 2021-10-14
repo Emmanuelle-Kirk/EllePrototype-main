@@ -11,6 +11,7 @@ TagManager:
   - CamSwapTriggerHouse2
   - CamSwapTriggerHouse3
   - CamSwapTriggerGas
+  - GasStationLeave1
   layers:
   - Default
   - TransparentFX

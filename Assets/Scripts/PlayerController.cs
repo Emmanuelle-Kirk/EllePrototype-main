@@ -90,6 +90,10 @@ public class PlayerController : MonoBehaviour
             {
                 other.gameObject.SetActive(false);
             }
+            if (other.gameObject.CompareTag("GasStationLeave1"))
+            {
+                SceneManager.LoadScene(sceneName: "SmallTown");
+            }
         }
     }
 }
