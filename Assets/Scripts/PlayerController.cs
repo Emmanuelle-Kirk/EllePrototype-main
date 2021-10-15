@@ -26,7 +26,6 @@ public class PlayerController : MonoBehaviour
         BuildingIndoors.enabled = false;
         BuildingIndoors2.enabled = false;
         BuildingIndoors3.enabled = false;
-
         rb = GetComponent<Rigidbody>();
     }
 
