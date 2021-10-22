@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody rb;
     private int clues;
+
     public TextMeshProUGUI CluesText;
 
     public Camera BuildingEntrance;
@@ -25,8 +26,8 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+
         rb = GetComponent<Rigidbody>();
-        clues = 0;
 
         BuildingEntrance.enabled = true;
         BuildingIndoors.enabled = false;
