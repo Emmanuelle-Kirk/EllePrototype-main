@@ -12,6 +12,7 @@ TagManager:
   - CamSwapTriggerHouse3
   - CamSwapTriggerGas
   - GasStationLeave1
+  - ClueCount
   layers:
   - Default
   - TransparentFX
